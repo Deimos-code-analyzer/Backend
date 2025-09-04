@@ -15,7 +15,7 @@ jobs:
 
       - name: Run Bandit Security Scan
         run: |
-          pip install bandit -r backend/requirements.txt
+          pip install bandit -r requirements.txt
           bandit src/apiserver.py -f html -o bandit-report-backend.html || true
 
       - name: Upload Bandit Report
