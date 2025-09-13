@@ -5,7 +5,9 @@ resources:
   - backend-deploy.yaml
   - backend-hpa.yaml
   - backend-service.yaml
+  - backend-netpol.yaml
   - mysql/mysql-delpoy.yaml
   - mysql/mysql-service.yaml
   - mysql/pv.yaml
   - mysql/pvc.yaml
+  - mysql/mysql-netpol.yaml
